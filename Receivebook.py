@@ -167,9 +167,7 @@ class RetnApp(tk.Tk):
                 for row in rowcount:
                     todayy = datetime.now()
                     bday = datetime.strptime(self.Txtdatedb.get(), '%Y-%m-%d')
-                    #print(bday)
                     days = (todayy - bday).days
-                    #print(days)
                     fineamnt = 0,
                     if days < 5:
                         self.Txtfine.insert(tk.INSERT, fineamnt)
