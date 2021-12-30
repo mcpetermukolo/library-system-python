@@ -165,7 +165,7 @@ class AdlibApp(tk.Tk):
                 rowcount = cursor.rowcount
                 if cursor.rowcount == 1:
                     mBox.showinfo('Information', "deleted Successfully")
-                    ask = mBox.askyesno("Confirm", "Do you want to delete another admno?")
+                    ask = mBox.askyesno("Confirm", "Do you want to delete another record?")
                     if ask:
                         self.clear()
                 else:

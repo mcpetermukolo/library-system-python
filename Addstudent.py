@@ -175,7 +175,7 @@ class AdstdApp(tk.Tk):
                 rowcount = cursor.rowcount
                 if cursor.rowcount == 1:
                     mBox.showinfo('Information', "deleted Successfully")
-                    ask = mBox.askyesno("Confirm", "Do you want to delete another Book?")
+                    ask = mBox.askyesno("Confirm", "Do you want to delete another Record?")
                     if ask:
                         self.allclear()
                     else:

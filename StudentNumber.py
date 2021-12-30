@@ -114,7 +114,7 @@ class AddmnApp(tk.Tk):
         admno = self.Txtadmno.get()
         adate = self.Txtdated.get()
         if admno == "" or adate == "":
-            mBox.showerror(self, 'Error Enter adm no')
+            mBox.showerror(self, 'Error Enter student no')
         else:
             try:
                 conn = pymysql.connect(**Db.dbConfig)
