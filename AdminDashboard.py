@@ -30,7 +30,7 @@ class AdsucApp(tk.Tk):
         self.destroy()
 
     def clickAddmnApp(self):
-        call(["python", "AdmissionNumber.py"])
+        call(["python", "StudentNumber.py"])
 
     def clickLibApp(self):
         call(["python", "Librarian.py"])
