@@ -1,4 +1,4 @@
-# librarypythonsystem
+# library python system
 Library Management System - PYTHON + MySQL .This is a desktop application which is developed in Python platform using Tkinter for Beginners.
 # Database
 Create Database Library, Upload the provided sql file, install pymysql, Use the Dbcon class connection details.
